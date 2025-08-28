@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	width: 100vw;
+	font-family: Arial, sans-serif;
+	background-color: orange;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.navbar {
+	height: 60px;
+	width: 100%;
+	background-color: orange;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+.logotext {
+	font-family: "Libre Baskerville", serif;                font-weight: 400;                                       font-style: normal;
+	font-size: 17px;
+	color: #ffffff;
+}
+.nav-links {
+	list-style: none;
+	display:flex;
+}
+.nav-links li {
+	margin-left: 20px;
+}
+.nav-links a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 13px;
+	transition: color 0.5s;
+}
+.nav-links a:hover {
+	color: #000000;
+}
+.cabecalho {
+	height: 500px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../assets/images/fundo.png");
+	background-size: cover;
+	background-position: center left;
+	margin: 10px 10px 0px 0px;
+}
+.titlemain {
+	color: #ffffff;
+	text-shadow: 2px 2px 2px #00000080;
+	font-size: 38px;
+	font-family: "Libre Baskerville", serif;
+	font-weight: 400;
+        font-style: normal;
+	text-align: center;
+}
