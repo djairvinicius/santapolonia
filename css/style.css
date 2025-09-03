@@ -83,7 +83,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-top: 60px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 .mapcontainer {
 	height: 200px;
@@ -101,9 +101,9 @@ body {
 	border: 0;
 }
 .final {
-	height: 105px;
+	height: 90px;
 	width: 90%;
-	background-color: #454545;
+	background-color: #FAB400;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -113,7 +113,7 @@ body {
 .iconcontainer {
 	height: 27px;
 	width: 27px;
-	background-color: #ffffff;
+	background-color: #212121;
 	display: flex;
 	align-items: center;
 	justify-content: center;
