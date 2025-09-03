@@ -66,3 +66,7 @@ body {
         font-style: normal;
 	text-align: center;
 }
+.icon {
+	height: 100px;
+	width: 100px;
+}
