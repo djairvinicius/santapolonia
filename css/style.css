@@ -74,7 +74,17 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+.iconcontainer {
+	height: 30px;
+	width: 30px;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2000px;
+	margin: 5px;
+}
 .icon {
-	height: 40px;
-	width: 40px;
+	height: 15px;
+	width: 15px;
 }
