@@ -119,6 +119,10 @@ body {
 	justify-content: center;
 	border-radius: 2000px;
 	margin: 5px;
+	transition: background-color 0.5s; 
+}
+.iconcontainer:hover {
+	background-color: #AA55AA;
 }
 .icon {
 	height: 15px;
