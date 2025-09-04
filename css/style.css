@@ -125,13 +125,9 @@ body {
 .final {
 	height: 90px;
 	width: 100%;
-	background-color: #FAB400;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 10px;
-	border-radius: 12px;
-}
 .iconcontainer {
 	height: 27px;
 	width: 27px;
