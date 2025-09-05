@@ -87,6 +87,10 @@ body {
 	font-family: "Epunda Slab", serif;                      font-optical-sizing: auto;                              font-weight: <weight>;                                  font-style: normal;
 	text-align: center;
 }
+.text2 {
+	font-size: 12px;
+        font-family: "Epunda Slab", serif;                      font-optical-sizing: auto;                              font-weight: <weight>;                                  font-style: normal;                                     text-align: left;
+}
 .cardtext {
 	display: flex;
 	flex-direction: column;
@@ -174,3 +178,19 @@ body {
 	font-weight: <weight>;
 	font-style: normal;
 }
+.sa {
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.profilesa {
+	height: 80px;
+	width: 80px;
+	border-radius: 2000px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
