@@ -198,12 +198,17 @@ body {
 	font-style: normal;
 }
 .sa {
+	background-color: #FAFAFA;
+	padding: 0px 20px 15px 20px;
+	margin: 100px;
+	border-radius: 12px;
 	height: auto;
-	width: 100%;
+	width: 380px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	position: relative;
 }
 .profilesa {
 	height: 80px;
@@ -211,5 +216,14 @@ body {
 	border-radius: 2000px;
 	margin-top: 15px;
 	margin-bottom: 30px;
+	position: absolute;
+	top: -22%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 10;
 }
+.sa h1 {
+	margin-bottom: 15px;
+}
+
 
