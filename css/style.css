@@ -22,7 +22,7 @@ body {
 .navbar {
 	height: 60px;
 	width: 100%;
-	background-color: #FFFFFFF2;
+	background-color: #FFFFFF4D;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -32,6 +32,8 @@ body {
 	z-index: 1000;
 	padding-left: 25px;
 	padding-right: 25px;
+	backdrop-filter: blur(8px); /* aplica o blur */
+    -webkit-backdrop-filter: blur(8px); /* para compatibilidade com Safari */
 }
 .logotext {
 	font-family: "Libre Baskerville", serif;
