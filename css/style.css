@@ -209,6 +209,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	box-shadow: 0 12px 35px #0000004D;
 }
 .profilesa {
 	height: 80px;
@@ -221,9 +222,19 @@ body {
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 10;
+	box-shadow: 0 12px 35px #0000004D;
 }
 .sa h1 {
 	margin-bottom: 15px;
 }
-
+.container-map {
+	height: auto;
+	width: 390px;
+	background-color: #FAFAFA;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12px;
+	box-shadow: 0 12px 35px #0000004D;
+}
 
