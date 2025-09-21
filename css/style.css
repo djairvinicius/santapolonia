@@ -110,7 +110,7 @@ body {
 }
 .mapcontainer {
 	height: 200px;
-	width: 100%;
+	width: 350px;
 	display: flex;
 	align-items: center;
 	justify-content:center;
@@ -125,7 +125,7 @@ body {
 }
 .card {
 	height: 200px;
-	width: 100%;
+	width: 350px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -237,7 +237,7 @@ body {
 }
 @media (min-width: 600px) {
 	.container-map {
-		width: 580px;
+		width: 500px;
 	}
 }
 /*faz com quem a div container-map tenha margin-bottom de 12px em telas menores que 600px*/
