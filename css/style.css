@@ -57,7 +57,7 @@ body {
 }
 .cabecalho {
 	height: 500px;
-	width: 100%;
+	width: 85%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -65,8 +65,6 @@ body {
 	background-size: cover;
 	background-position: center left;
 	border-radius: 12px;
-	margin-left: 25px;
-	margin-right: 25px;
 }
 .titlemain {
 	color: #000000;
@@ -239,7 +237,7 @@ body {
 }
 @media (min-width: 600px) {
 	.container-map {
-		width: 500px;
+		width: 440px;
 	}
 }
 /*faz com quem a div container-map tenha margin-bottom de 12px em telas menores que 600px*/
@@ -251,7 +249,7 @@ body {
 }
 .container-card {
 	height: auto;
-	width: 100%;
+	width: 85%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
