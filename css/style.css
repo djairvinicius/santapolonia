@@ -240,7 +240,7 @@ body {
 }
 @media (min-width: 600px) {
 	.container-map {
-		width: 440px;
+		width: 550px;
 	}
 }
 /*faz com quem a div container-map tenha margin-bottom de 12px em telas menores que 600px*/
