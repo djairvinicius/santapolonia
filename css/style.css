@@ -159,7 +159,7 @@ body {
 	border-radius: 2000px;
 	margin: 5px;
 	transition: background-color, transform 0.5s;
-	transition -timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
 }
 .iconcontainer:hover {
 	background-color: #AA55AA;
