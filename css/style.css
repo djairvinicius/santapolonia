@@ -37,7 +37,8 @@ body {
 }
 .logotext {
 	font-family: "Libre Baskerville", serif;
-        font-weight: 400;                                       font-style: normal;
+    font-weight: 400;
+	font-style: normal;
 	font-size: 17px;
 	color: #000000;
 }
