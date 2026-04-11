@@ -64,7 +64,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url("../assets/images/fundo.png");
+	background-image: url("../images/fundo.png");
 	background-size: cover;
 	background-position: center left;
 	border-radius: 12px;
@@ -132,7 +132,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../assets/images/donate2.png");
+	background-image: url("../images/donate2.png");
 	background-size: cover;
 	background-position: bottom;
 	border-radius: 12px;
