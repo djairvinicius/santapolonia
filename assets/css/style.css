@@ -1,3 +1,4 @@
+/*fontes importadas do site google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
@@ -5,23 +6,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
-
+/*remove bordas padrâo*/
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 body {
+	/*largura do body*/
 	width: 100vw;
+	/*fonte usada*/
 	font-family: Arial, sans-serif;
+	/*cor de fundo*/
 	background-color: #ffffff;
+	/*display defino como flex para alinha os elementos*/
 	display: flex;
+	/*display:flex; vem com flex-direction padrão row que faz os elementos ficarem lado a lado e column faz ficarem um abaixo do outro*/
 	flex-direction: column;
+	/*alinhamento vertical*/
 	align-items: center;
 }
 .navbar {
+	/*altura do elemento*/
 	height: 60px;
+	/*largura do element0*/
 	width: 100%;
+	/*cor de fundo do elemento*/
 	background-color: #FFFFFF4D;
 	display: flex;
 	justify-content: space-between;
