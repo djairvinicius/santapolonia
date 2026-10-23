@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Site da comunidade Santa Apolônia, Satuba AL">
 		<meta name="author" content="Djair Vinicius">
+		<script src="../assets/js/theme.js"></script>
 		<link rel="stylesheet" href="../assets/css/style.css">
 		<link rel="icon" type="image/jpg" href="assets/images/sacicle.png">
 		<title>Programação</title>
@@ -19,6 +20,7 @@
 				<li><a href="programacao.html">Programação</a></li>
 				<li><a href="sobre.html">Sobre</a></li>
 			</ul>
+			<button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">Ativar tema escuro</button>
 		</nav>
 		<h1 class="titlemain">
 			Programação
@@ -26,57 +28,37 @@
 		<p class="text">
 		Programação da Igreja <b>Santa Apolônia</b>.
 		</p>
-		<div class="prog">
-			<h2 class="progtitle">
-				Domingo
-			</h2>
-			<p class="progtext">
-			Sem programação.
-			</p>
-			<hr>
-			<h2 class="progtitle">
-				Segunda-feira
-			</h2>
-			<p class="progtext">
-			19:30 - Legião de maria.
-			</p>
-			<hr>
-			<h2 class="progtitle">
-				Terça-feira
-			</h2>
-			<p class="progtext">
-			Sem programação.
-			</p>
-			<hr>
-			<h2 class="progtitle">
-				Quarta-feira
-			</h2>
-			<p class="progtext">
-			19:30 - Ovelhinha de Jesus e ofício da imaculada Conceição.
-			</p>
-			<hr>
-			<h2 class="progtitle">
-				Quinta-feira
-			</h2>
-			<p class="progtext">
-			19:30 - Adoração ao santíssimo sagramento.
-			</p>
-			<hr>
-			<h2 class="progtitle">
-				Sexta-feira
-			</h2>
-			<p class="progtext">
-			19:30 - Grupo jovens.
-			</p>
-			<hr>
-			<h2 class="progtitle">
-				Sábado
-			</h2>
-			<p class="progtext">
-			19:30 - Missa ou selebração.
-			</p>
-			<hr>
-		</div>
+		<section class="programacao" aria-labelledby="programacao-titulo">
+			<h2 class="programacao__titulo" id="programacao-titulo">Programação da semana</h2>
+			<div class="programacao__wrapper">
+				<table class="grade">
+					<caption class="visually-hidden">Atividades semanais da Igreja Santa Apolônia</caption>
+					<thead>
+						<tr>
+							<th scope="col">Horário</th>
+							<th scope="col">Domingo</th>
+							<th scope="col">Segunda-feira</th>
+							<th scope="col">Terça-feira</th>
+							<th scope="col">Quarta-feira</th>
+							<th scope="col">Quinta-feira</th>
+							<th scope="col">Sexta-feira</th>
+							<th scope="col">Sábado</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th class="grade__coluna-horario" scope="row">19:30</th>
+							<td>—</td>
+							<td><span class="tag-evento">Legião de Maria</span></td>
+							<td>—</td>
+							<td><span class="tag-evento">Ovelhinha de Jesus e Ofício da Imaculada Conceição</span></td>
+							<td><span class="tag-evento">Adoração ao Santíssimo Sacramento</span></td>
+							<td><span class="tag-evento">Grupo de jovens</span></td>
+							<td><span class="tag-evento">Missa ou celebração</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
 	</body>
 </html>
-
